@@ -136,3 +136,6 @@ footer{
     padding-bottom: 0;
     width: 25%;
 }
+.Contact > p{
+    padding-bottom: 10px;
+}

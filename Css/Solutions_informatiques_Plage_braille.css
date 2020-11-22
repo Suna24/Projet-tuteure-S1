@@ -1,0 +1,10 @@
+main p{
+    width: 60%;
+    margin: auto;
+}
+main img{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
