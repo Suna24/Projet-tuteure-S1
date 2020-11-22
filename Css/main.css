@@ -100,10 +100,6 @@ a{
 }
 
 /********************************* Pied de page ******************************************/
-.logoIUT{
-    width: 230px;
-    height: auto;
-}
 footer{
     background-color: #3A8EBA;
     display: flex;
