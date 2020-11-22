@@ -3,18 +3,19 @@ main{
     text-align: center;
     margin: auto;
 }
+header img{
+    width: 49.8%;
+}
 
 
 /**************** Concerne les images et le texte***************/
 /****** Premier bloc sur la définition**************/
 .def{
-    border: 1px solid;
     width: 50%;
     margin: auto;
     margin-bottom: 50px;
     padding: 30px 30px;
-    border-radius: 20% 10%;;
-    background-color:#3a8dbad8;
+    background-color: rgb(208, 224, 231);
 }
 
 /*********Deuxième bloc sur l'acuité visuelle**************/
