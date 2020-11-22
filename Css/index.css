@@ -1,0 +1,11 @@
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+main p{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
