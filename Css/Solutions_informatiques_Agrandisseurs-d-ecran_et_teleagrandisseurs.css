@@ -1,0 +1,15 @@
+main p{
+    width: 60%;
+    margin: auto;
+}
+h3{
+    width: 60%;
+    margin: auto;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}

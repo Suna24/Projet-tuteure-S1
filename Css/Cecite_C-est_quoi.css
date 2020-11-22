@@ -3,13 +3,6 @@ main{
     text-align: center;
     margin: auto;
 }
-h2{
-    width: 60%;
-    position: relative;
-    margin: auto;
-    margin-bottom: 30px;
-    text-decoration: underline;
-}
 
 
 /**************** Concerne les images et le texte***************/
@@ -21,7 +14,7 @@ h2{
     margin-bottom: 50px;
     padding: 30px 30px;
     border-radius: 20% 10%;;
-    background-color:rgb(23, 193, 199);
+    background-color:#3a8dbad8;
 }
 
 /*********Deuxième bloc sur l'acuité visuelle**************/

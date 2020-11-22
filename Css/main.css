@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Signika';
-    background-color: rgb(167, 208, 228);
+    background-color: rgb(167, 209, 228);
 }
 
 /******************** Importation des polices **************************/
@@ -94,9 +94,25 @@ nav > ul li:hover .sous{
     border-bottom: none;
     background-color: #3A8EBA;
 }
+
+/*Concerne des balises spécifiques ********************************************/
 a{
     text-decoration: none;
     color: white;
+}
+h2{
+    width: 60%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+h3{
+    width: 60%;
+    position: relative;
+    margin: auto;
+    text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 /********************************* Pied de page ******************************************/
@@ -104,19 +120,19 @@ footer{
     background-color: #3A8EBA;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 10px;
     text-align: center;
+    margin-top: 30px;
 }
 .Coordonees_IUT{
+    padding-top: 20px;
     width: 25%;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 .Sources{
-    padding-left: 20px;
+    padding-top: 20px;
     width: 25%;
 }
 .Contact{
+    padding-top: 20px;
+    padding-bottom: 0;
     width: 25%;
 }

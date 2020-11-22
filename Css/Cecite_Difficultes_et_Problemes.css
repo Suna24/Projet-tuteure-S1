@@ -1,0 +1,20 @@
+main p{
+    width: 60%;
+    text-align: justify;
+    margin: auto;
+}
+
+h4{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+/******************* Images **************************/
+main img{
+    display: block;
+    margin: auto;
+    margin-bottom: 70px;
+}
