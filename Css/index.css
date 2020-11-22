@@ -5,7 +5,15 @@ img{
 }
 main p{
     width: 40%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+body{
+    background-image: url("../Images/Image-oeil2test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    margin-top: 500px;
 }

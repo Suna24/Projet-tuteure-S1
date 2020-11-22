@@ -5,16 +5,19 @@
 }
 
 body{
-    font-family: 'Signika';
+    font-family: 'Tiresias';
     background-color: rgb(167, 209, 228);
 }
 
 /******************** Importation des polices **************************/
 @font-face{
     font-family: 'Signika';
-        src: url('C:/Users/basti/Documents/GitHub/Projet-tuteure-S1/Polices/Signika-Regular.otf') format('OpenType');
+        src: url('../Polices/Signika-Regular.otf') format('OpenType');
 }
-
+@font-face{
+    font-family: 'Tiresias';
+        src: url('../Polices/TiresiasPCfont.ttf') format('TrueType');
+}
 
 /*** Concerne l'entête de la page ***/
 
@@ -57,7 +60,7 @@ nav ul::after{
     clear: both;
 }
 nav a{
-    font-size: 18px;
+    font-size: 25px;
     display: block;
     text-decoration: none;
     color: white;
@@ -135,7 +138,4 @@ footer{
     padding-top: 20px;
     padding-bottom: 0;
     width: 25%;
-}
-.Contact > p{
-    padding-bottom: 10px;
 }
