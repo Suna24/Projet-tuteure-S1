@@ -26,12 +26,8 @@ h1{
     text-align: center;
     position: relative;
     font-size: 40px; 
-    margin-top: 75px;
+    margin-top: 110px;
     margin-bottom: 25px;
-}
-.actif{
-    color: blue;
-    border-bottom: 2px solid;
 }
 
 /* Menu déroulant de la page */
@@ -65,7 +61,7 @@ nav a{
     text-decoration: none;
     color: white;
     border-bottom: 2px solid transparent;
-    padding: 15px 0px;
+    padding: 20px 0px;
 }
 
 nav a:hover{
@@ -125,6 +121,7 @@ footer{
     justify-content: space-between;
     text-align: center;
     margin-top: 30px;
+    font-size: 20px;
 }
 .Coordonees_IUT{
     padding-top: 20px;
