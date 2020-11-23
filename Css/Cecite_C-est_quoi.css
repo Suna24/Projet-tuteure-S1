@@ -4,7 +4,10 @@ main{
     margin: auto;
 }
 header img{
-    width: 49.8%;
+    width: 50%;
+}
+.bandeau{
+    display: flex;
 }
 
 
