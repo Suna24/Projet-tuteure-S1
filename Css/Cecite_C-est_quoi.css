@@ -132,6 +132,30 @@ hr{
     margin: auto;
     padding: 2% 2%;
     border-radius: 10%;
+    margin-bottom: 40px;
 }
+article{
+    display: flex;
+}
+button{
+    font-size: 18px;
+    padding: 4% 4%;
+    border-radius: 10%;
+    background-color: #048B9A;
+    margin: 20px;
+}
+#span_txt, #span1_txt, #span2_txt, #span3_txt, #span4_txt{
+    display: none;
+}
+.aveuglesoupas h4{
+    text-decoration: underline;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+
 
 

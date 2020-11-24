@@ -8,6 +8,19 @@
             <link rel="stylesheet" href="../Css/main.css"/>
             <link rel="stylesheet" href="../Css/Cecite_C-est_quoi.css"/>
             <link rel="icon" type="image/png" sizes="16x16" href="../Images/LogoAveugle.png"/>
+            
+            <script type="text/javascript">
+     function toggle_text(id) {
+  var span = document.getElementById(id);
+  if(span.style.display == "none") {
+    span.style.display = "inline";
+  } else {
+    span.style.display = "none";
+  }
+}
+
+            </script>
+
             <title>La cécité, c'est quoi?</title>
             
         </head>
@@ -90,17 +103,36 @@
                 <!-- Aveugles ou pas? -->
                 <section class="aveuglesoupas">
                     <h3>Etes-vous considéré comme aveugles?</h3>
-                
-                    <!-- Paragraphe explicatif-->
-                    <p>Comment savoir si l'on est considéré comme aveugle? En effet suivant la mesure de l'acuité visuelle et du champ visuel, vous êtes considéré comme aveugle ou non</p>
-                    <p>Il existe 5 niveaux de déficiences visuelles, seulement 3 sont        considérés comme niveau de cécité.<br/> 
-	                - Une personne atteinte de la cécité absolue, n’a aucune perception de la lumière<br/>
-	                - Une personne atteinte de la cécité grave, a une perception de la lumière mais son champ visuel est inférieur à 5 degrés et son acuité visuelle est quant à elle inférieure à 1/50.
-	                - Une personne atteinte de la déficience profonde, elle possède un champ visuel compris entre 5 et 10 degrés et une acuité visuelle comprise entre 1/50 et 1/20.<p/>
+                    <article class="aveugle">
 
-                    <p>Les deux derniers niveaux ne sont quand à eux pas considéré comme aveugles<br/>
-	                - la déficience sévère, la personne possède une acuité visuelle comprise entre 1/20 et 1/10<br/>
-	                - la déficience moyenne , la personne possède une acuité visuelle comprise entre 3/10  et 1/10 et dispose d’un  champ visuel supérieur à 20°.</p>
+                        <h4>Considéré comme aveugles</h4>
+
+                        <button type="button" onclick="toggle_text('span_txt');">Cécité absolue</button>
+                        <p id="span_txt">- Pas de perception de lumière</p>
+                        
+                        <button type="button" onclick="toggle_text('span1_txt');">Cécité grave</button>
+                        <p id="span1_txt">- Perception faible de la lumière<br>
+                           - Champ visuel &lsaquo; 5° <br>
+                           - Acuité visuelle &lsaquo; 1/50
+                        </p>
+
+                        <button type="button" onclick="toggle_text('span2_txt');">Déficience profonde</button>
+                        <p id="span2_txt">- 5° &lsaquo; champ visuel &lsaquo; 10°<br>
+                           - 1/50 &lsaquo; acuité visuelle &lsaquo; 1/20
+                        </p>
+                    </article>
+
+                    <article class="pasaveugle">
+
+                        <h4>Non considéré comme aveugles</h4>
+                        
+                        <button type="button" onclick="toggle_text('span3_txt');">Déficience sévère</button>
+                        <p id="span3_txt">- 1/20 &lsaquo; acuité visuelle &lsaquo; 1/10</p>
+
+                        <button type="button" onclick="toggle_text('span4_txt');">Déficience moyenne</button>
+                        <p id="span4_txt">- 1/10 &lsaquo; acuité visuelle &lsaquo; 3/10<br>
+                           - Champ visuel &rsaquo; 20°</p>
+                        </article>
                 </section>
             </main>
             
