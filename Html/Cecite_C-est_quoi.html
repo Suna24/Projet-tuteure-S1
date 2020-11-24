@@ -9,22 +9,37 @@
             <link rel="stylesheet" href="../Css/Cecite_C-est_quoi.css"/>
             <link rel="icon" type="image/png" sizes="16x16" href="../Images/LogoAveugle.png"/>
             
+            <!-- Code Javascript -->
             <script type="text/javascript">
-     function toggle_text(id) {
-  var span = document.getElementById(id);
-  if(span.style.display == "none") {
-    span.style.display = "inline";
-  } else {
-    span.style.display = "none";
-  }
-}
+
+            function toggle_text(id) {
+                var span = document.getElementById("aveugle");
+                var span1 = document.getElementById("nonaveugle");
+                // Première partie
+                if(id == "span_txt"){
+                    span.innerHTML ="Cécité absolue : Pas de perception de lumière";  
+                }
+                if(id == "span1_txt"){
+                    span.innerHTML ="Cécité grave : Perception faible de la lumière - Champ visuel &lsaquo; 5° - Acuité visuelle &lsaquo; 1/50";       
+                }
+                if(id == "span2_txt"){
+                    span.innerHTML ="Déficience profonde : 5° &lsaquo; champ visuel &lsaquo; 10° - 1/50 &lsaquo; acuité visuelle &lsaquo; 1/20";  
+                }
+                // Seconde partie
+                if(id == "span3_txt"){
+                    span1.immerHTML ="Déficience sévère : 1/20 &lsaquo; acuité visuelle &lsaquo; 1/10";
+                }
+                if(id == "span4_txt"){
+                    span1.immerHTML ="Déficience moyenne : 1/10 &lsaquo; acuité visuelle &lsaquo; 3/10 - Champ visuel &rsaquo; 20°";
+                }
+            }
 
             </script>
 
             <title>La cécité, c'est quoi?</title>
             
         </head>
-        
+         
         <!-- Corps de la page-->
         <body>
             
@@ -102,37 +117,31 @@
                 <hr>
                 <!-- Aveugles ou pas? -->
                 <section class="aveuglesoupas">
-                    <h3>Etes-vous considéré comme aveugles?</h3>
-                    <article class="aveugle">
+                    <h3>Etes-vous considéré comme aveugle?</h3>
+                    <article>
 
-                        <h4>Considéré comme aveugles</h4>
+                        <h4>Considéré comme aveugle</h4>
 
                         <button type="button" onclick="toggle_text('span_txt');">Cécité absolue</button>
-                        <p id="span_txt">- Pas de perception de lumière</p>
                         
                         <button type="button" onclick="toggle_text('span1_txt');">Cécité grave</button>
-                        <p id="span1_txt">- Perception faible de la lumière<br>
-                           - Champ visuel &lsaquo; 5° <br>
-                           - Acuité visuelle &lsaquo; 1/50
-                        </p>
 
                         <button type="button" onclick="toggle_text('span2_txt');">Déficience profonde</button>
-                        <p id="span2_txt">- 5° &lsaquo; champ visuel &lsaquo; 10°<br>
-                           - 1/50 &lsaquo; acuité visuelle &lsaquo; 1/20
-                        </p>
+
                     </article>
 
-                    <article class="pasaveugle">
+                    <p id="aveugle"></p>
 
-                        <h4>Non considéré comme aveugles</h4>
+                    <article>
+
+                        <h4>Non considéré comme aveugle</h4>
                         
                         <button type="button" onclick="toggle_text('span3_txt');">Déficience sévère</button>
-                        <p id="span3_txt">- 1/20 &lsaquo; acuité visuelle &lsaquo; 1/10</p>
 
                         <button type="button" onclick="toggle_text('span4_txt');">Déficience moyenne</button>
-                        <p id="span4_txt">- 1/10 &lsaquo; acuité visuelle &lsaquo; 3/10<br>
-                           - Champ visuel &rsaquo; 20°</p>
-                        </article>
+                    </article>
+
+                    <p id="nonaveugle"></p>
                 </section>
             </main>
             
