@@ -124,11 +124,14 @@ hr{
 }
 
 /************Quatrième bloc sur savoir si on est aveugles******/
-.aveuglesoupas{
-    margin-top: 200px;
-    clear: both;
-    margin-bottom: 40px;
-    background-color: rgb(208, 224, 231);
+.aveuglesoupas h3{
+    text-align: center;
+    background-color: #048B9A;
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 2% 2%;
+    border-radius: 10%;
 }
 
 
