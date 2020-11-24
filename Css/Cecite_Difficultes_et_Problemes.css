@@ -17,4 +17,10 @@ main img{
     display: block;
     margin: auto;
     margin-bottom: 70px;
+    padding: 40px 40px;
+    background-color: rgb(133, 184, 204);
+}
+
+.Fin{
+    margin-bottom: 40px;
 }

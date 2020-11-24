@@ -1,15 +1,39 @@
-main{
+main {
     width: 60%;
     text-align: center;
     margin: auto;
 }
-header img{
-    width: 50%;
+main h2{
+    text-align: left;
+    text-decoration: underline;
 }
+
+/*********** Bandeau d'images*******************/
+.Ophtalmo{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    border-bottom-left-radius: 36%;
+}
+.Ophtalmo1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    border-bottom-right-radius: 36%;
+}
+
 .bandeau{
     display: flex;
 }
 
+/************ Titre ******************/
+
+h1{
+    margin-top: 500px;
+}
 
 /**************** Concerne les images et le texte***************/
 /****** Premier bloc sur la définition**************/
@@ -18,7 +42,7 @@ header img{
     margin: auto;
     margin-bottom: 50px;
     padding: 30px 30px;
-    background-color: rgb(208, 224, 231);
+    background-color: #539ac0;
 }
 
 /*********Deuxième bloc sur l'acuité visuelle**************/
@@ -53,7 +77,7 @@ header img{
 
 /************Quatrième bloc sur savoir si on est aveugles******/
 .aveuglesoupas{
-    margin-top: 100px;
+    margin-top: 200px;
     clear: both;
     margin-bottom: 40px;
     background-color: rgb(208, 224, 231);
