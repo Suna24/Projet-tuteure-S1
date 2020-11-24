@@ -14,7 +14,7 @@ main h2{
     position: absolute;
     top: 0;
     width: 50%;
-    border-bottom-left-radius: 36%;
+    border-bottom-left-radius: 20%;
 }
 .Ophtalmo1{
     display: block;
@@ -22,7 +22,7 @@ main h2{
     top: 0;
     left: 50%;
     width: 50%;
-    border-bottom-right-radius: 36%;
+    border-bottom-right-radius: 20%;
 }
 
 .bandeau{
