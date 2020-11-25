@@ -1,8 +1,23 @@
+/********** Titre principal **********/
+h1{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+/********* Corps de la page*************/
+body{
+    background-image: url("../Images/Image-oeil2test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
 img{
     display: block;
     margin: auto;
     margin-bottom: 50px;
 }
+
 main p{
     width: 40%;
     margin-top: 150px;
@@ -15,15 +30,14 @@ main p{
     border-bottom-right-radius: 15%;
     border-top-right-radius: 15%;
 }
+
 span{
     font-size: 30px;
 }
-body{
-    background-image: url("../Images/Image-oeil2test.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
-}
+
+/************ Pied de page ***********/
 footer{
     margin-top: 200px;
 }
+
+

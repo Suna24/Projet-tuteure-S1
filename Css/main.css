@@ -26,8 +26,9 @@ h1{
     text-align: center;
     position: relative;
     font-size: 42px; 
-    margin-top: 100px;
-    margin-bottom: 25px;
+}
+main p{
+    font-size: 22px;
 }
 
 /* Menu déroulant de la page */
