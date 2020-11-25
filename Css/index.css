@@ -12,6 +12,8 @@ main p{
     padding-bottom: 90px;
     padding-left: 50px;
     padding-right: 60px;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
 }
 span{
     font-size: 30px;
