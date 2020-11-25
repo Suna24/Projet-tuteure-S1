@@ -3,7 +3,16 @@ main p{
     text-align: justify;
     margin: auto;
 }
-
+h2{
+    width: 60%;
+    text-decoration: underline;
+    margin: auto;
+    margin-bottom: 30px;
+}
+h3{
+    width: 60%;
+    margin: auto;
+}
 h4{
     width: 60%;
     margin: auto;
@@ -20,7 +29,9 @@ main img{
     padding: 40px 40px;
     background-color: rgb(133, 184, 204);
 }
-
+.Bandeau{
+    width: 100%;
+}
 .Fin{
     margin-bottom: 40px;
 }
