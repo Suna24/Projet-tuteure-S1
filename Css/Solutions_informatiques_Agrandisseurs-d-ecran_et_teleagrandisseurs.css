@@ -3,10 +3,17 @@ main p{
     margin: auto;
 }
 h3{
-    width: 60%;
+    width: 30%;
     margin: auto;
     text-decoration: underline;
     margin-top: 30px;
+    background-color: #20B2AA;
+    border: solid;
+    border-radius: 15%;
+    padding: 12px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
 }
 img{
     display: block;
@@ -21,4 +28,23 @@ h2{
     width: 60%;
     margin: auto;
     text-decoration: underline;
+    margin-bottom: 20px;
 }
+.parallax {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    background-image: url("../Images/space.jpg");
+    height: 1100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+  .parallax p{
+      border: solid;
+      border-radius: 15%;
+      background-color: #20B2AA ;
+      padding: 30px 15px;
+  }
