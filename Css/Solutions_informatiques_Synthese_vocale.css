@@ -3,12 +3,8 @@ main p{
     margin: auto;
     margin-bottom: 30px;
 }
-main img{
-    display: block;
-    margin-bottom: 40px;
-    position: relative;
-    left: 20%;
-}
+
+/****** Différents niveaux de titres ************/
 h1{
     margin-top: 140px;
     margin-bottom: 20px;
@@ -23,4 +19,16 @@ h3{
     margin: auto;
     text-decoration: underline;
     margin-top: 30px;
+}
+.jaws, .nvda, .dolphin{
+    display: flex;
+    background-color: blue;
+    width: 20%;
+    border: solid;
+    border-radius: 12%;
+    text-align: center;
+    padding: 20px 2px;
+}
+section{
+    display: flex;
 }
