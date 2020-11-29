@@ -4,22 +4,31 @@
         <!-- Informations sur la page-->
         <head>
             <meta charset="utf-8"/>
+
+            <!-- Liens vers les feuilles CSS -->
             <link rel="stylesheet" href="../Css/main.css"/>
             <link rel="stylesheet" href="../Css/Solutions_informatiques_Synthese_vocale.css"/>
+
+            <!-- Lien pour mettre une icone à la page-->
             <link rel="icon" type="image/png" sizes="16x16" href="../Images/LogoAveugle.png"/>
+
+            <!-- Liens vers les scripts Javascript -->
             <script src="../Javascript/BarreDefilement.js"></script>
             <script src="../Javascript/Button.js"></script>
+
+            <!-- Titre de la page -->
             <title>La synthèse vocale</title>
         </head>
         
         
         <!-- Corps de la page-->
         <body>
+
+            <!-- Barre de défilement -->
             <div id="progress"></div>
             
             <!-- En-tête de la page-->
             <header>
-                
                 
                <!-- Menu-->
                 <nav >
@@ -40,6 +49,7 @@
                         </li>
                     </ul>
                 </nav>
+
                 <h1>SOLUTIONS INFORMATIQUES</h1>
                 <h2>SYNTHESE VOCALE</h2>
             </header>
@@ -47,132 +57,174 @@
             
             <!-- Informations de la page-->
             <main>
-                <section class="un">
-                <h3>Qu'est ce que c'est?</h3>
-                <img class="son" width="550" height="387" src="../Images/son.jpg" alt="Photo d'une oreille recevant des ondes sonores"/>
-                <p>La <strong>synthèse vocale</strong> correspond à une <strong>aide technique</strong> qui retranscrit ce qui est à l’écran par une voix. Le <stronger>lecteur d’écran</stronger> récupère tout d’abord l’information textuelle puis la retranscrit vocalement à l’ordinateur, il peut s’agir de texte mais également de boutons (Ex: bouton OK). Il fonctionne également lorsque l’utilisateur écrit au clavier.</p> 
-                <p>Néanmoins, il ne restitue pas les images, logos ou graphiques contenant de l’information. En effet, quand le lecteur rencontre une image ou autre il restitue un <strong>“texte de remplacement”</strong>. La synthèse vocale peut être couplée avec la <strong>plage braille</strong> que nous expliquerons par la suite.
-                La synthèse vocale permet donc à l’utilisateur de naviguer sur internet mais aussi de lire des mails, ou un livre numérique. La voix parle vite pour que la personne puisse naviguer “aussi vite” qu’une personne normale.
-                </p>
-                </section>
-                <section class="deux">
-                <h3>Le développeur est la solution</h3>
-                <p> Le bon fonctionnement de la synthèse vocale passe d'abord par la bonne programmation du site par le <strong>développeur</strong>. Pour que la personne puisse
-                    sélectionner l'information qu'elle souhaite entendre, le logiciel de synthèse vocale navigue d'abord de titre en titre jusqu'à ce 
-                    que la personne choississe de s'arrêter. Le développeur doit donc faire attention d'utiliser les bonnes <strong>balises</strong> afin de rendre son site accessible à tous.</p> 
-                <img width="512" heigth="291" class="Dev" src="../Images/Dev.png" alt="Dessin d'un développeur"/>
-            </section>
-            <section class="trois">
-                    <h3>Les logiciels</h3>
-                <p>
-                    Il existe aujourd’hui une grande variété de <strong>logiciels de synthèse vocale</strong>, certains sont gratuits mais d’autres payants. Ci-dessous la liste 
-                    non-exaustive des logiciels de synthèse vocale les plus connus
-                    Néanmoins, cet outil présente un inconvénient, la <strong>navigation à la souris</strong> est impossible ce qui occasionne des problèmes sur certains sites, notamment pour la validation de paiements à l'aide de bouton
-                </p>
-            
                 
-                <!-- Photo des logos des synthèses vocales -->
-                <article>
+                <!-- Premier bloc -->
+                <section class="un">
 
-                <div class="jaws">
-                    <img width="100" height="100" src="../Images/Jaws.png" alt="Logo du logiciel de synthèse vocale JAWS"/>
-                    <p>Jaws</p>
-                    <button id="bouton1">En savoir plus</button>
+                    <h3>Qu'est ce que c'est?</h3>
+
+                    <!-- Image explicative -->
+                    <img class="son" width="550" height="387" src="../Images/son.jpg" alt="Photo d'une oreille recevant des ondes sonores"/>
                     
-                    <!--Texte caché-->
-                    <section id="togg1">
-                    <h4>Avantages</h4>
-                    <p>- Lit les graphiques<br>
-                       - Compatible avec le braille<br>
-                       - Synthèse vocale puissante et multilingue</p>
-                    <h4>Inconvénients</h4>
-                    <p>- Très cher (entre 1000 et 3000€)</p>
-                    </section>
-                </div>
+                    <p>La <strong>synthèse vocale</strong> correspond à une <strong>aide technique</strong> qui retranscrit ce qui est à l’écran par une voix. Le <stronger>lecteur d’écran</stronger> récupère tout d’abord l’information textuelle puis la retranscrit vocalement à l’ordinateur, il peut s’agir de texte mais également de boutons (Ex: bouton OK). Il fonctionne également lorsque l’utilisateur écrit au clavier.</p> 
+                    <p>Néanmoins, il ne restitue pas les images, logos ou graphiques contenant de l’information. En effet, quand le lecteur rencontre une image ou autre il restitue un <strong>“texte de remplacement”</strong>. La synthèse vocale peut être couplée avec la <strong>plage braille</strong> que nous expliquerons par la suite.
+                        La synthèse vocale permet donc à l’utilisateur de naviguer sur internet mais aussi de lire des mails, ou un livre numérique. La voix parle vite pour que la personne puisse naviguer “aussi vite” qu’une personne normale.
+                    </p>
 
-                <div class="nvda">
-                    <img width="100" height="100" src="../Images/Nvda.png" alt="Logo du logiciel de synthèse vocale NVDA"/>
-                    <p>NVDA</p>
-                    <button id="bouton2">En savoir plus</button>
-
-                    <!--Texte caché-->
-                    <section id="togg2">
-                        <h4>Avantages</h4>
-                        <p>- Gratuit <br>
-                            - Facile à prendre en main<br>
-                            - Compatible avec le braille<br>
-                            - Synthèse vocale multilingue</p>
-                         <h4>Inconvénients</h4>
-                         <p>- Navigation hasardeuse</p>
-                    </section>
-                </div>
-
-                <div class="dolphin">
-                    <img width="100" height="100" src="../Images/Dolphin.png" alt="Logo du logiciel de synthèse vocale Dolphin"/>
-                    <p>Dolphin</p>
-                    <button id="bouton3">En savoir plus</button>
-
-                    <!--Texte caché-->
-                    <section id="togg3">
-                        <h4>Avantages</h4>
-                        <p> - Compatible avec le braille<br>
-                            - Synthèse vocale puissante</p>
-                         <h4>Inconvénients</h4>
-                         <p>- Plutôt cher (entre 1000 et 1300€)<br>
-                            - Petite communauté</p>
-                    </section>
-                </div>
-
-                <div class="orca">
-                    <img width="100" height="100" src="../Images/Orca.png" alt="Logo du logiciel de synthèse vocale Orca"/>
-                    <p>Orca</p>
-                    <button id="bouton4">En savoir plus</button>
-
-                    <!--Texte caché-->
-                    <section id="togg4">
-                        <h4>Avantages</h4>
-                        <p>- Bonne navigation avec le clavier<br>
-                            - Compatible avec le braille<br>
-                            - Synthèse vocale puissante<br>
-                        - Gratuit</p>
-                         <h4>Inconvénients</h4>
-                         <p>- Configuration complexe<br>
-                            - Seuls les synthétiseurs de parole libre sont utilisées</p>
-                    </section>
-                </div>
-            </article>
                 </section>
+
+                <!-- Deuxième bloc -->
+                <section class="deux">
+
+                    <h3>Le développeur est la solution</h3>
+
+                    <p> Le bon fonctionnement de la synthèse vocale passe d'abord par la bonne programmation du site par le <strong>développeur</strong>. Pour que la personne puisse
+                        sélectionner l'information qu'elle souhaite entendre, le logiciel de synthèse vocale navigue d'abord de titre en titre jusqu'à ce 
+                        que la personne choississe de s'arrêter. Le développeur doit donc faire attention d'utiliser les bonnes <strong>balises</strong> afin de rendre son site accessible à tous.
+                    </p> 
+
+                    <!-- Image explicative -->
+                    <img width="512" heigth="291" class="Dev" src="../Images/Dev.png" alt="Dessin d'un développeur"/>
+                
+                </section>
+
+                <!-- Troisième bloc -->
+                <section class="trois">
+
+                    <h3>Les logiciels</h3>
+
+                    <p>Il existe aujourd’hui une grande variété de <strong>logiciels de synthèse vocale</strong>, certains sont gratuits mais d’autres payants. Ci-dessous la liste 
+                        non-exaustive des logiciels de synthèse vocale les plus connus
+                        Néanmoins, cet outil présente un inconvénient, la <strong>navigation à la souris</strong> est impossible ce qui occasionne des problèmes sur certains sites, notamment pour la validation de paiements à l'aide de bouton
+                    </p>
+            
+                    <!-- Bloc sur les logiciels de synthèses vocales -->
+                    <article>
+
+                        <!-- Jaws -->
+                        <div class="jaws">
+                            <img width="100" height="100" src="../Images/Jaws.png" alt="Logo du logiciel de synthèse vocale JAWS"/>
+                            <p>Jaws</p>
+                            <button id="bouton1">En savoir plus</button>
+                    
+                            <!--Texte caché-->
+                            <section id="togg1">
+
+                                <h4>Avantages</h4>
+                                <p>- Lit les graphiques<br>
+                                    - Compatible avec le braille<br>
+                                    - Synthèse vocale puissante et multilingue
+                                </p>
+                            
+                                <h4>Inconvénients</h4>
+                                <p>- Très cher (entre 1000 et 3000€)</p>
+
+                            </section>
+                        </div>
+                        
+                        <!-- Nvda-->
+                        <div class="nvda">
+                            <img width="100" height="100" src="../Images/Nvda.png" alt="Logo du logiciel de synthèse vocale NVDA"/>
+                            <p>NVDA</p>
+                            <button id="bouton2">En savoir plus</button>
+
+                            <!--Texte caché-->
+                            <section id="togg2">
+
+                                <h4>Avantages</h4>
+                                <p>- Gratuit <br>
+                                    - Facile à prendre en main<br>
+                                    - Compatible avec le braille<br>
+                                    - Synthèse vocale multilingue
+                                </p>
+
+                                <h4>Inconvénients</h4>
+                                <p>- Navigation hasardeuse</p>
+                            </section>
+                        </div>
+
+                        <!-- Dolphin -->
+                        <div class="dolphin">
+                            <img width="100" height="100" src="../Images/Dolphin.png" alt="Logo du logiciel de synthèse vocale Dolphin"/>
+                            <p>Dolphin</p>
+                            <button id="bouton3">En savoir plus</button>
+
+                            <!--Texte caché-->
+                            <section id="togg3">
+
+                                <h4>Avantages</h4>
+                                <p> - Compatible avec le braille<br>
+                                    - Synthèse vocale puissante</p>
+
+                                <h4>Inconvénients</h4>
+                                <p>- Plutôt cher (entre 1000 et 1300€)<br>
+                                   - Petite communauté
+                                </p>
+
+                            </section>
+                        </div>
+
+                        <!-- Orca-->
+                        <div class="orca">
+                            <img width="100" height="100" src="../Images/Orca.png" alt="Logo du logiciel de synthèse vocale Orca"/>
+                            <p>Orca</p>
+                            button id="bouton4">En savoir plus</button>
+
+                            <!--Texte caché-->
+                            <section id="togg4">
+
+                                <h4>Avantages</h4>
+                                <p>- Bonne navigation avec le clavier<br>
+                                   - Compatible avec le braille<br>
+                                   - Synthèse vocale puissante<br>
+                                   - Gratuit
+                                </p>
+
+                                <h4>Inconvénients</h4>
+                                <p>- Configuration complexe<br>
+                                   - Seuls les synthétiseurs de parole libre sont utilisées
+                                </p>
+
+                            </section>
+                        </div>
+
+                    </article>
+
+                </section>
+
             </main>
             
             
             <!-- Pied de page-->
             <footer> 
-                <p class="Sources">Nos sources<br/>
-                    <a href="https://blog.ceciaa.com/2019/04/02/syntheses-vocales/">Blog Ceciaa, synthèses vocales</a><br/>
-                    <a href="https://www.ionos.fr/digitalguide/sites-internet/developpement-web/lecteurs-decran-logiciels-pour-malvoyants-et-non-voyants/">Ionos, lecteurs d'écran</a><br/>
-                    <a href="https://fr.wikipedia.org/wiki/Lecteur_d%27%C3%A9cran">Wikipédia, Lecteur d'écran</a><br/>
-                    <a href="https://fr.wikipedia.org/wiki/JAWS_">Wilipédia, JAWS</a><br/>
-                    <a href="https://fr.wikipedia.org/wiki/VoiceOver">Wikipédia,VoiceOver</a><br/>
-                    <a href="https://fr.wikipedia.org/wiki/NonVisual_Desktop_Access">Wikipédia, NonVisual Desktop Access</a><br/>
-                    <a href="https://support.microsoft.com/fr-fr/help/22798/windows-10-complete-guide-to-narrator">Microsoft, narrateur</a><br/>
-                    <a href="http://www.eurobraille.fr/fr/jaw">Eurobraille, JAWS</a><br/>
+
+                <p class="Sources">Nos sources<br>
+                    <a href="https://blog.ceciaa.com/2019/04/02/syntheses-vocales/">Blog Ceciaa, synthèses vocales</a><br>
+                    <a href="https://www.ionos.fr/digitalguide/sites-internet/developpement-web/lecteurs-decran-logiciels-pour-malvoyants-et-non-voyants/">Ionos, lecteurs d'écran</a><br>
+                    <a href="https://fr.wikipedia.org/wiki/Lecteur_d%27%C3%A9cran">Wikipédia, Lecteur d'écran</a><br>
+                    <a href="https://fr.wikipedia.org/wiki/JAWS_">Wilipédia, JAWS</a><br>
+                    <a href="https://fr.wikipedia.org/wiki/VoiceOver">Wikipédia,VoiceOver</a><br>
+                    <a href="https://fr.wikipedia.org/wiki/NonVisual_Desktop_Access">Wikipédia, NonVisual Desktop Access</a><br>
+                    <a href="https://support.microsoft.com/fr-fr/help/22798/windows-10-complete-guide-to-narrator">Microsoft, narrateur</a><br>
+                    <a href="http://www.eurobraille.fr/fr/jaw">Eurobraille, JAWS</a><br>
                 </p>
                 
-                <p class="Contact">Nous contacter<br/>
-                    VERRIER CLAUDE<br/>
-                    TROUSSIER Arthur<br/>
+                <p class="Contact">Nous contacter<br>
+                    VERRIER CLAUDE<br>
+                    TROUSSIER Arthur<br>
                     TAROT Bastien
                 </p>
                 
                 <img class="logoIUT" width="300" height="144" src="../Images/logoIUTLAVAL.png" alt="Logo de l'IUT de LAVAL"/>
                 
-                <p class="Coordonees_IUT">Institut Universitaire de Technologie de Laval<br/>
-                    52 Rue des Docteurs Calmette et Guérin<br/>
-                    BP 2045 - 53020 Laval Cedex 09<br/>
+                <p class="Coordonees_IUT">Institut Universitaire de Technologie de Laval<br>
+                    52 Rue des Docteurs Calmette et Guérin<br>
+                    BP 2045 - 53020 Laval Cedex 09<br>
                     France
                 </p>
+                
             </footer>
-            
-            
+        
         </body>
+
     </html>
