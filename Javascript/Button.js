@@ -1,3 +1,4 @@
+/* Boutons pour la page la cécité c'est quoi?*/
 function toggle_text(id) {
     var span = document.getElementById("aveugle");
     var span1 = document.getElementById("nonaveugle");
@@ -18,4 +19,9 @@ function toggle_text(id) {
     if(id == "span4_txt"){
         span1.innerHTML ="Déficience moyenne : 1/10 &lsaquo; acuité visuelle &lsaquo; 3/10 et Champ visuel &rsaquo; 20°";
     }
+}
+
+/* Boutons pour la page Solutions informatiques, synthèse vocale */
+function toggle_text(id) {
+
 }
