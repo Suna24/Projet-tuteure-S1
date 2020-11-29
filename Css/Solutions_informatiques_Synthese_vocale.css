@@ -85,5 +85,13 @@ button{
     padding: 7px;
     border: solid;
     border-radius: 10%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+#togg1 p, #togg1 h4, #togg2 p, #togg2 h4, #togg3 p, #togg3 h4, #togg4 p, #togg4 h4{
+    text-align: start;
+    font-size: 17px;
+}
+h4{
+    text-decoration: underline;
+    margin-bottom: 10px;
 }

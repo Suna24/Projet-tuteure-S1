@@ -22,6 +22,74 @@ function toggle_text(id) {
 }
 
 /* Boutons pour la page Solutions informatiques, synthèse vocale */
-function toggle_text(id) {
+/* Premier bouton */
+document.addEventListener('DOMContentLoaded', function () {
+	let cache = document.getElementById("bouton1");
+	cache.addEventListener('click', cacheTexte);
+	document.getElementById('togg1').style.display = 'none';
 
-}
+	function cacheTexte() {
+		let affiche = document.getElementById('togg1');
+		if (affiche.style.display == 'none') {
+      affiche.style.display = 'block';
+      document.getElementById('bouton1').innerHTML = 'Cacher';
+		} else {
+      affiche.style.display = 'none';
+      document.getElementById('bouton1').innerHTML = 'En savoir plus';
+		}
+	}
+});
+
+/* Deuxième bouton */
+document.addEventListener('DOMContentLoaded', function () {
+	let cache = document.getElementById("bouton2");
+	cache.addEventListener('click', cacheTexte);
+	document.getElementById('togg2').style.display = 'none';
+
+	function cacheTexte() {
+		let affiche = document.getElementById('togg2');
+		if (affiche.style.display == 'none') {
+      affiche.style.display = 'block';
+      document.getElementById('bouton2').innerHTML = 'Cacher';
+		} else {
+      affiche.style.display = 'none';
+      document.getElementById('bouton2').innerHTML = 'En savoir plus';
+		}
+	}
+});
+
+/* Troisième bouton */
+document.addEventListener('DOMContentLoaded', function () {
+	let cache = document.getElementById("bouton3");
+	cache.addEventListener('click', cacheTexte);
+	document.getElementById('togg3').style.display = 'none';
+
+	function cacheTexte() {
+		let affiche = document.getElementById('togg3');
+		if (affiche.style.display == 'none') {
+      affiche.style.display = 'block';
+      document.getElementById('bouton3').innerHTML = 'Cacher';
+		} else {
+      affiche.style.display = 'none';
+      document.getElementById('bouton3').innerHTML = 'En savoir plus';
+		}
+	}
+});
+
+/* Quatrième bouton */
+document.addEventListener('DOMContentLoaded', function () {
+	let cache = document.getElementById("bouton4");
+	cache.addEventListener('click', cacheTexte);
+	document.getElementById('togg4').style.display = 'none';
+
+	function cacheTexte() {
+		let affiche = document.getElementById('togg4');
+		if (affiche.style.display == 'none') {
+      affiche.style.display = 'block';
+      document.getElementById('bouton4').innerHTML = 'Cacher';
+		} else {
+      affiche.style.display = 'none';
+      document.getElementById('bouton4').innerHTML = 'En savoir plus';
+		}
+	}
+});
