@@ -93,10 +93,6 @@ button{
     left: 15%;
 }
 .bouton{
-    position: relative;
-    left: 11%;
-}
-#aveugle{
-    border: solid;
+    width: 90%;
     margin: auto;
 }
