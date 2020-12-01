@@ -19,6 +19,17 @@ body{
         src: url('../Polices/TiresiasPCfont.ttf') format('TrueType');
 }
 
+/**************** Barre de défilement ****************************/
+#progress{
+	background-color: black;
+	height: 3px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999; 
+}
+
 /*** Concerne l'entête de la page ***/
 
 h1{
@@ -127,12 +138,4 @@ footer{
     display: block;
     margin-bottom: 0;
 }
-#progress{
-	background-color: black;
-	height: 3px;
-	width: 0;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 9999; 
-}
+
