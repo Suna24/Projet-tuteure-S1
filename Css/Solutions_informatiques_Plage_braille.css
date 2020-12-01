@@ -5,8 +5,8 @@ main p{
 main img{
     display: block;
     margin: auto;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 h1{
     margin-top: 140px;
@@ -16,10 +16,38 @@ h2{
     width: 60%;
     margin: auto;
     text-decoration: underline;
+    margin-bottom: 20px;
 }
 h3{
     width: 60%;
     margin: auto;
     text-decoration: underline;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+section{
+    text-align: center;
+    padding-top: 15px;
+    background-image: url("../Images/blue2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.un{
+    height: 550px;
+}
+.deux{
+    height: 500px;
+}
+.trois{
+    height: 1200px;
+}
+
+strong{
+    color: white;
 }
