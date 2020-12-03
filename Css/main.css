@@ -11,10 +11,6 @@ body{
 
 /******************** Importation des polices **************************/
 @font-face{
-    font-family: 'Signika';
-        src: url('../Polices/Signika-Regular.otf') format('OpenType');
-}
-@font-face{
     font-family: 'Tiresias';
         src: url('../Polices/TiresiasPCfont.ttf') format('TrueType');
 }

@@ -39,39 +39,18 @@ h3{
 .son{
     margin-bottom: 20px;
 }
-.un{
+.un, .deux, .trois{
     text-align: center;
     padding-top: 15px;
     background-image: url("../Images/blue1.jpg");
-    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
+    padding-bottom: 20px;
   }
-.deux{
-    text-align: center;
-    padding-top: 15px;
-    background-image: url("../Images/blue1.jpg");
-    height: 570px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-}
-.trois{
-    text-align: center;
-    padding-top: 15px;
-    background-image: url("../Images/blue1.jpg");
-    height: 900px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-}
+
 strong{
       color: white;
 }
