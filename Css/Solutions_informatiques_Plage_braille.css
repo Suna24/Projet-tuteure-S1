@@ -29,6 +29,7 @@ h3{
 section{
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 20px;
     background-image: url("../Images/blue2.png");
     background-attachment: fixed;
     background-position: center;
@@ -37,15 +38,6 @@ section{
     margin-bottom: 50px;
 }
 
-.un{
-    height: 550px;
-}
-.deux{
-    height: 500px;
-}
-.trois{
-    height: 1200px;
-}
 
 strong{
     color: white;
