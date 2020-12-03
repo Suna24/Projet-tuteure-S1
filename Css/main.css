@@ -41,6 +41,10 @@ h1{
 main p{
     font-size: 22px;
 }
+h3{
+    font-size: 23px;
+    text-decoration: underline;
+}
 
 /* Menu déroulant de la page */
 
@@ -137,5 +141,8 @@ footer{
 .logoIUT{
     display: block;
     margin-bottom: 0;
+}
+footer a{
+    color: black;
 }
 
