@@ -26,7 +26,7 @@ span{
 }
 
 /**************** Concerne les images et le texte***************/
-.acuitevisuelle {
+.acuitevisuelle, .def, .champvisuel {
     text-align: center;
     color: black;
     padding-top: 15px;
@@ -40,19 +40,6 @@ span{
   }
   .acuitevisuelle p{
       margin-bottom: 30px;
-  }
-
-  .def, .champvisuel {
-    text-align: center;
-    color: black;
-    padding-top: 15px;
-    background-image: url("../Images/Ophtalmo.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
   }
   .champvisuel p{
       margin-bottom: 30px;
