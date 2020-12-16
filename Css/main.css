@@ -36,6 +36,8 @@ h1{
 }
 main p{
     font-size: 22px;
+    width: 60%;
+    margin: auto;
 }
 h3{
     font-size: 23px;

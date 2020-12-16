@@ -19,6 +19,8 @@ img{
 
 main p{
     width: 40%;
+    position: relative;
+    right: 28%;
     margin-top: 150px;
     font-size: 25px;
     background-color: rgb(208, 224, 231);

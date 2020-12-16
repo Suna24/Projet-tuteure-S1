@@ -43,13 +43,14 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
+    margin-bottom: 50px; 
  }
  
 #slide2 {
     text-align: center;
     padding-top: 15px;
-    background-image: url("../Images/blue2.png");
+    background-image: url("../Images/Loupe.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

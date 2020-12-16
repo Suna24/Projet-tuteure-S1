@@ -38,11 +38,10 @@ span{
     margin-bottom: 50px;
     padding-bottom: 50px;
   }
-  .acuitevisuelle p{
+  .acuitevisuelle p, .champvisuel p, .def p{
       margin-bottom: 30px;
-  }
-  .champvisuel p{
-      margin-bottom: 30px;
+      background-color: rgba(255, 255, 255, 0.699);
+      padding: 2% 2%;
   }
 
 /************Quatrième bloc sur savoir si on est aveugles******/
