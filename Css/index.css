@@ -7,7 +7,6 @@ h1{
 /********* Corps de la page*************/
 body{
     background-image: url("../Images/OeilAccueil.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -38,7 +37,7 @@ span{
 
 /************ Pied de page ***********/
 footer{
-    margin-top: 200px;
+    margin-top: 270px;
 }
 
 
