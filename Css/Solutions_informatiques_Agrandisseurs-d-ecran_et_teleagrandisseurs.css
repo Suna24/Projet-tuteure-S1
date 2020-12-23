@@ -51,6 +51,7 @@ h2{
 #logoZoomText{
     float: right;
     margin-right: 20%;
+    padding-bottom: 20px;
 }
 #logoIzoom{
     float: left;
